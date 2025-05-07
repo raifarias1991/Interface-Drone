@@ -1,6 +1,6 @@
 # Sistema de Controle e Monitoramento de Drones
 
-![DroneControl](https://via.placeholder.com/800x400?text=DroneControl)
+![DroneControl](https://interfacedrone.vercel.app/)
 
 ## 📋 Descrição
 
@@ -48,5 +48,5 @@ O projeto consiste em um frontend web desenvolvido com Next.js e um backend Pyth
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/drone-control.git
-   cd drone-control
+   git clone https://github.com/raifarias1991/interface-drone.git
+   cd interface-drone
