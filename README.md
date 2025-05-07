@@ -1,6 +1,6 @@
 # Sistema de Controle e Monitoramento de Drones
 
-![DroneControl](https://interfacedrone.vercel.app/)
+🔗 **Demo ao vivo:** [https://interfacedrone.vercel.app/](https://interfacedrone.vercel.app/)
 
 ## 📋 Descrição
 
