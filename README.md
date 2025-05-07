@@ -1,30 +1,52 @@
-# DRONE PRONTO
+# Sistema de Controle e Monitoramento de Drones
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+![DroneControl](https://via.placeholder.com/800x400?text=DroneControl)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/fariasrai129-gmailcoms-projects/v0-drone-pronto)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/oWOy2ofxx1g)
+## 📋 Descrição
 
-## Overview
+O Sistema de Drones é uma interface web moderna para controle e monitoramento de drones autônomos em tempo real. O sistema permite visualizar o feed de vídeo do drone, controlar seus movimentos, monitorar telemetria e utilizar recursos avançados de IA para detecção de objetos, rastreamento facial e planejamento de rotas.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+O projeto consiste em um frontend web desenvolvido com Next.js e um backend Python que se comunica com o hardware do drone. A comunicação entre frontend e backend é realizada via WebSockets, permitindo atualizações em tempo real.
 
-## Deployment
+### Principais Funcionalidades
 
-Your project is live at:
+- 📹 Visualização do feed de vídeo em tempo real
+- 📊 Monitoramento de telemetria (bateria, altitude, temperatura, atitude)
+- 🎮 Controles intuitivos para pilotagem
+- 🧠 Recursos de IA para detecção de objetos e rastreamento
+- 🗣️ Controle por comandos de voz
+- 🗺️ Planejamento e execução de rotas autônomas
+- 📱 Interface responsiva para diferentes dispositivos
+- 🔄 Modo de simulação para testes sem hardware
 
-**[https://vercel.com/fariasrai129-gmailcoms-projects/v0-drone-pronto](https://vercel.com/fariasrai129-gmailcoms-projects/v0-drone-pronto)**
+## 🚀 Tecnologias Utilizadas
 
-## Build your app
+### Frontend
+- [Next.js](https://nextjs.org/) - Framework React com renderização do lado do servidor
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
+- [Shadcn/UI](https://ui.shadcn.com/) - Componentes de UI reutilizáveis
+- [Framer Motion](https://www.framer.com/motion/) - Biblioteca para animações
+- [Three.js](https://threejs.org/) - Biblioteca para gráficos 3D
+- [Lucide React](https://lucide.dev/) - Ícones modernos para React
 
-Continue building your app on:
+### Backend
+- [Python](https://www.python.org/) - Linguagem de programação principal do backend
+- [WebSockets](https://websockets.readthedocs.io/) - Biblioteca para comunicação bidirecional
+- [OpenCV](https://opencv.org/) - Biblioteca para processamento de imagens e visão computacional
+- [NumPy](https://numpy.org/) - Biblioteca para computação científica
 
-**[https://v0.dev/chat/projects/oWOy2ofxx1g](https://v0.dev/chat/projects/oWOy2ofxx1g)**
+## 💻 Instalação
 
-## How It Works
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) (v18 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+- [Python](https://www.python.org/) (v3.8 ou superior)
+- [pip](https://pip.pypa.io/en/stable/)
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### Frontend
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/drone-control.git
+   cd drone-control
