@@ -1,0 +1,7 @@
+websockets>=10.0
+opencv-python>=4.5.0
+numpy>=1.20.0
+# Dependências opcionais para IA
+# tensorflow>=2.8.0  # Descomente para usar TensorFlow
+# scikit-learn>=1.0.0  # Descomente para usar scikit-learn
+
